@@ -1,10 +1,12 @@
 import React from 'react'
+import {Col} from 'reactstrap'
+
 
 function SideBar() {
     return (
-        <div>
+        <Col>
             This is the Sidebar
-        </div>
+        </Col>
     )
 }
 

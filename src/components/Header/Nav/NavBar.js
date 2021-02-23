@@ -1,12 +1,13 @@
 import React from 'react'
 import SideBar from './SideBar'
 import Main from './Main';
+import {Row} from 'reactstrap'
 function NavBar() {
     return (
-        <div>
+        <Row className="nav">
             <SideBar />
             <Main />
-        </div>
+        </Row>
     )
 }
 
