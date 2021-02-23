@@ -1,4 +1,21 @@
-/* .nav{
-    display: flex;
-    flex-direction: column;
-} */
+.nav{
+    height:60px;
+    background-color: fff;
+    box-shadow: 0 0 14px #000;
+    display:flex;
+    align-items: center;
+    padding: 0 5%; 
+    margin-bottom: 5px;
+}
+
+.profile_pic_main{
+    height:45px;
+    padding:0 5px;
+}
+
+.searchbar{
+    flex-grow:1;
+    max-width: 80%;
+    min-width:15%;
+    padding:0 5px;
+}

@@ -4,8 +4,9 @@ import {Col} from 'reactstrap'
 
 function SideBar() {
     return (
-        <Col>
-            This is the Sidebar
+        <Col className="col-1 sidebar">
+            <small>
+            https://elementary.io/</small>
         </Col>
     )
 }
