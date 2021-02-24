@@ -1,43 +1,43 @@
-import React from 'react'
-import { Col, Row } from 'reactstrap'
-import { Image, InputGroup, Text, FormControl } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import Logo from './img/logo.png'
-import profile from './img/profile.jpg'
+import React from "react";
+import { Col, Row } from "reactstrap";
+import { Image, InputGroup, Text, FormControl } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import Logo from "./img/logo.png";
+import profile from "./img/profile.jpg";
 
 function Main() {
-    return (
-        <Col>
-            <Row>
-                <div className="logo">
-                    <Image src={Logo} className="logo" />
-                </div>
-                <div className="humberger">
-                    <FontAwesomeIcon icon={faCoffee} />
-                </div>
-                <div className="searchbar">
-                    <InputGroup className="mb-3">
-                        <InputGroup.Prepend>
-                            <InputGroup.Text id="basic-addon1">#</InputGroup.Text>
-                        </InputGroup.Prepend>
-                        <FormControl
-                            placeholder="Username"
-                            aria-label="Username"
-                            aria-describedby="basic-addon1"
-                        />
-                    </InputGroup>
-                </div>
-                <div className="leftcorner">
-                    <div className="notification"></div>
-                    <div className="profilepic">
-                        <Image src={profile} roundedCircle className="profile_pic_main" />
-                    </div>
-                    <div className="Username">Annabel Wairimu</div>
-                </div>
-            </Row>
-        </Col>
-    )
+  return (
+    <Col>
+      <Row>
+        <div className="logo">
+          <Image src={Logo} className="logo" />
+        </div>
+        <span className="humberger">
+          <FontAwesomeIcon icon={faCoffee} />
+        </span>
+        <span className="searchbar">
+          <InputGroup className="mb-3">
+            <InputGroup.Prepend>
+              <InputGroup.Text id="basic-addon1">#</InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </InputGroup>
+        </span>
+        <div className="leftcorner">
+          <div className="notification"></div>
+          <div className="profilepic">
+            <Image src={profile} roundedCircle className="profile_pic_main" />
+          </div>
+          <div className="Username">Annabel Wairimu</div>
+        </div>
+      </Row>
+    </Col>
+  );
 }
 
-export default Main
+export default Main;
