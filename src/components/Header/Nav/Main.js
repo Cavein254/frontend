@@ -1,6 +1,8 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { Image, InputGroup, Text, FormControl } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Logo from './img/logo.png'
 import profile from './img/profile.jpg'
 
@@ -11,7 +13,9 @@ function Main() {
                 <div className="logo">
                     <Image src={Logo} className="logo" />
                 </div>
-                <div className="humberger"></div>
+                <div className="humberger">
+                    <FontAwesomeIcon icon={faCoffee} />
+                </div>
                 <div className="searchbar">
                     <InputGroup className="mb-3">
                         <InputGroup.Prepend>
