@@ -1,11 +1,24 @@
 .nav{
     height:60px;
     background-color: fff;
-    box-shadow: 0 0 14px #000;
+    box-shadow: 0 0 3px #bdbdbd;
     display:flex;
     align-items: center;
-    padding: 0 5%; 
+    padding: 0 50%; 
     margin-bottom: 5px;
+}
+.logo{
+    height:25%;
+}
+.searchbar{
+    flex-grow:1;
+    max-width: 80%;
+    min-width:15%;
+    padding:0 5px;
+}
+.leftcorner{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .profile_pic_main{
@@ -13,9 +26,3 @@
     padding:0 5px;
 }
 
-.searchbar{
-    flex-grow:1;
-    max-width: 80%;
-    min-width:15%;
-    padding:0 5px;
-}
