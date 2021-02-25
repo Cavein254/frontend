@@ -16,7 +16,7 @@ function Main() {
         <span className="humberger">
           <FontAwesomeIcon icon={faCoffee} />
         </span>
-        <span className="searchbar">
+        <div className="searchbar">
           <InputGroup className="mb-3">
             <InputGroup.Prepend>
               <InputGroup.Text id="basic-addon1">#</InputGroup.Text>
@@ -27,7 +27,7 @@ function Main() {
               aria-describedby="basic-addon1"
             />
           </InputGroup>
-        </span>
+        </div>
         <div className="leftcorner">
           <div className="notification"></div>
           <div className="profilepic">
