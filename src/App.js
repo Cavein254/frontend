@@ -1,9 +1,8 @@
-import { Button } from "reactstrap";
-import Nav from "./components/Header/Nav/Nav";
+import Topbar from "./components/Header/Navbar";
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Topbar />
     </div>
   );
 }
