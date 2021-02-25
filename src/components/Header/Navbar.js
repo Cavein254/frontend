@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSignInAlt, FaBook } from "react-icons/fa";
+import { FaSignInAlt, FaBook, FaSearch } from "react-icons/fa";
 import "./styles.css";
 import {
   Navbar,
@@ -24,23 +24,25 @@ function Topbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Form.Label htmlFor="inlineFormInputGroup" srOnly>
-              Username
+              Search
             </Form.Label>
             <InputGroup>
               <InputGroup.Prepend>
-                <InputGroup.Text>@</InputGroup.Text>
+                <InputGroup.Text>
+                  <FaSearch />
+                </InputGroup.Text>
               </InputGroup.Prepend>
-              <FormControl id="inlineFormInputGroup" placeholder="Username" />
+              <FormControl id="inlineFormInputGroup" placeholder="search" />
             </InputGroup>
           </Nav>
-          <Button variant="outline-success">
+          <Button variant="outline-info" className="login_btn">
             <FaBook />
-            Search
+            Register
           </Button>
 
-          <Button variant="outline-success">
+          <Button variant="outline-dark">
             <FaSignInAlt />
-            Search
+            Login
           </Button>
         </Navbar.Collapse>
       </Navbar>
