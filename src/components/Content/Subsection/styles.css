@@ -6,9 +6,26 @@
   padding-left: 20%;
   padding-top: 5%;
   height: 80vh;
+  color: #fff;
+  overflow-x: hidden;
 }
 .action_btn {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+p {
+  font-size: 1.2rem;
+}
+
+.faicon_bug {
+  font-size: 5.2rem;
+  padding-right: 2px;
+  color: rgba(89, 237, 247, 0.8);
+}
+
+.faicon_code {
+  font-size: 5.2rem;
+  padding-right: 2px;
+  color: rgba(139, 247, 89, 0.89);
 }

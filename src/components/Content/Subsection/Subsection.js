@@ -1,10 +1,11 @@
 import React from "react";
 import { Row, Col, Button, Container } from "react-bootstrap";
+import { FaBug, FaFileCode } from "react-icons/fa";
 import "./styles.css";
 
 function Subsection() {
   return (
-    <div className="subheading">
+    <Container fluid className="subheading">
       <Row>
         <Col>
           <h1 className="text-center">Why PlanMarketplace.com?</h1>
@@ -26,29 +27,41 @@ function Subsection() {
       </Row>
       <Row>
         <Col xs={12} md={6}>
-          <h1 className="text-center">Buy Plans</h1>
+          <div>
+            <h1 className="text-center">
+              <FaBug className="faicon_bug" />
+              Buy Plans
+            </h1>
+          </div>
           <p className="text-center">
             With PlanMarketplace, you’re not only guaranteed top-quality plans
             and files, you’re also guaranteed a search process and site
             experience that is fast, effective, and simple. Start searching now!
           </p>
           <div className="action_btn">
-            <Button>Find Plans</Button>
+            <Button className="btn-lg" variant="warning">
+              Find Plans
+            </Button>
           </div>
         </Col>
         <Col xs={12} md={6}>
-          <h1 className="text-center">Sell Plans Plan</h1>
+          <h1 className="text-center">
+            <FaFileCode className="faicon_code" />
+            Sell Plans Plan
+          </h1>
           <p className="text-center">
             Marketplace is the most effective platform for selling architectural
             and engineering plans and assets. We have the industry expertise and
             financial investment to attract buyers to PlanMarketplace.
           </p>
           <div className="action_btn">
-            <Button>Become A Seller</Button>
+            <Button className="btn-lg" variant="warning">
+              Become A Seller
+            </Button>
           </div>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }
 
