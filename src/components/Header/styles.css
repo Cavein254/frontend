@@ -3,6 +3,15 @@
 }
 .logo {
   width: 40%;
+  padding-right: 1.5rem;
+}
+.nav_icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav_icons > span {
+  padding-right: 1.5rem;
 }
 
 .navbar-nav {

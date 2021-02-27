@@ -1,0 +1,24 @@
+.question_wrapper {
+  margin-top: 1.4rem;
+  box-shadow: 0 0 5px #000;
+}
+
+.side_view {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding-top: 1.3rem;
+}
+
+.main_content_question {
+  overflow-y: hidden;
+}
+
+.question_footer {
+  display: flex;
+}
+
+.question_tags {
+  display: flex;
+  flex-direction: column;
+}

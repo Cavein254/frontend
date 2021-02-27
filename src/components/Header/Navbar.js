@@ -1,5 +1,12 @@
 import React from "react";
-import { FaSignInAlt, FaBook, FaSearch } from "react-icons/fa";
+import {
+  FaSignInAlt,
+  FaBook,
+  FaSearch,
+  FaHome,
+  FaQuestionCircle,
+  FaBookOpen,
+} from "react-icons/fa";
 import "./styles.css";
 import {
   Navbar,
@@ -18,7 +25,18 @@ function Topbar() {
     <div>
       <Navbar bg="light" expand="lg" className="nav">
         <Navbar.Brand href="#home">
-          <Image src={Logo} className="logo" />
+          <div className="nav_icons">
+            <Image src={Logo} className="logo" />
+            <span>
+              <FaHome />
+            </span>
+            <span>
+              <FaQuestionCircle />
+            </span>
+            <span>
+              <FaBookOpen />
+            </span>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
