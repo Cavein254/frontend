@@ -14,10 +14,23 @@
   padding-right: 1.5rem;
 }
 
+.nav_fa_icons {
+  color: #17a2b8;
+}
+
+.nav_fa_icons:hover {
+  color: #15ee44;
+  font-size: 2.3rem;
+}
+
 .navbar-nav {
   width: 80%;
 }
 
 .login_btn {
   margin-right: 1%;
+}
+
+.post_question {
+  margin-left: 1.2rem;
 }

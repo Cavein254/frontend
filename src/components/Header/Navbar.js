@@ -6,6 +6,7 @@ import {
   FaHome,
   FaQuestionCircle,
   FaBookOpen,
+  FaRegQuestionCircle,
 } from "react-icons/fa";
 import "./styles.css";
 import {
@@ -28,13 +29,13 @@ function Topbar() {
           <div className="nav_icons">
             <Image src={Logo} className="logo" />
             <span>
-              <FaHome />
+              <FaHome className="nav_fa_icons" />
             </span>
             <span>
-              <FaQuestionCircle />
+              <FaQuestionCircle className="nav_fa_icons" />
             </span>
             <span>
-              <FaBookOpen />
+              <FaBookOpen className="nav_fa_icons" />
             </span>
           </div>
         </Navbar.Brand>
@@ -57,10 +58,12 @@ function Topbar() {
             <FaBook />
             Register
           </Button>
-
           <Button variant="outline-dark">
             <FaSignInAlt />
             Login
+          </Button>
+          <Button className="post_question">
+            <FaRegQuestionCircle /> Post A Question
           </Button>
         </Navbar.Collapse>
       </Navbar>

@@ -18,7 +18,7 @@ function Questions() {
             <FaEye /> Answers: 2
           </span>
         </Col>
-        <Col className="col-8 main_content_question">
+        <Col className="col-9 main_content_question">
           <h1>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea cumque
             optio consectetur nam dignissimos.
