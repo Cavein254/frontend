@@ -16,7 +16,17 @@
 .hero_text {
   display: flex;
   justify-content: center;
+  scrollbar-color: transparent;
 }
+.hero_text > h4::-webkit-scrollbar {
+  /* Remove scrollbar in chrome */
+  display: none;
+}
+.hero_text > h4 {
+  /* Remove scrollbar in Firefox */
+  scrollbar-color: transparent;
+}
+
 .hero_pic {
   width: 100%;
 }
