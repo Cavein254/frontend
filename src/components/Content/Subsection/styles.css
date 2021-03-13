@@ -8,6 +8,15 @@
   height: 80vh;
   color: #fff;
 }
+
+.subheading-text > h1::-webkit-scrollbar {
+  /* Remove scrollbar in chrome */
+  display: none;
+}
+.subheading-text > h1 {
+  /* Remove scrollbar in Firefox */
+  scrollbar-color: transparent;
+}
 .action_btn {
   display: flex;
   justify-content: center;

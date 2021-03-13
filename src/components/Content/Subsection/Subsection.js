@@ -8,7 +8,9 @@ function Subsection() {
     <Container fluid className="subheading">
       <Row>
         <Col>
-          <h1 className="text-center">Why PlanMarketplace.com?</h1>
+          <div className="subheading-text">
+            <h1 className="text-center">Why PlanMarketplace.com?</h1>
+          </div>
           <p className="text-center">
             We are architects and engineers ourselves, so we created
             PlanMarketplace to be tailored to the needs of fellow architects and
