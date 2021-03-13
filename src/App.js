@@ -1,14 +1,13 @@
 import Topbar from "./components/Header/Navbar";
 import Subsection from "./components/Content/Subsection/Subsection";
 import Hero from "./components/Content/Hero/Hero";
-import Questions from "./components/Questions/Questions";
+import QuestionList from "./components/Questions/QuestionList";
+import Main from "./components/Content/Main";
+
 function App() {
   return (
     <div className="App">
-      <Topbar />
-      <Questions />
-      <Questions />
-      <Questions />
+      <Main />
     </div>
   );
 }
