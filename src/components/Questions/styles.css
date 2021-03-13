@@ -1,6 +1,7 @@
 .question_wrapper {
   margin-top: 1.4rem;
-  box-shadow: 0 0 5px #000;
+  box-shadow: 0 0 10px #000;
+  border: 2px solid #000;
 }
 
 .side_view {
@@ -9,10 +10,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-}
-
-.main_content_question > h1 {
-  overflow-y: hidden;
 }
 
 .question_footer {
