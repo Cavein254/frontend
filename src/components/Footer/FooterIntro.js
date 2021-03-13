@@ -3,8 +3,8 @@ import { Container, Row, Col, Image, Nav, Form, Button } from "react-bootstrap";
 
 function FooterIntro() {
   return (
-    <div>
-      <Row>
+    <div className="footer_wrapper">
+      <Row className="footer_back">
         <Col xs={12} md={4} className="footer_pallet">
           <Nav>
             <Nav.Item>

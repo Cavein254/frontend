@@ -5,17 +5,19 @@ import {FaTwitterSquare, FaFacebookSquare,FaInstagramSquare, FaWhatsappSquare} f
 import FooterInfo from './FooterInfo';
 import FooterClosure from './FooterClosure'
 import FooterIntro from "./FooterIntro"
+import FooterLove from './FooterLove'
 import "./styles.css";
 
 function Footer() {
   return (
-    <div className="footer_wrapper">
-     <div className="footer_back">
-       <FooterIntro />
-     <FooterInfo />
+    <div>
+     
+     <FooterIntro />
      <FooterClosure />
-     </div>
+     <FooterInfo />
+     <FooterLove />
     </div>
+    
   );
 }
 

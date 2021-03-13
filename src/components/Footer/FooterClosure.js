@@ -7,14 +7,18 @@ import {
   FaWhatsappSquare,
 } from "react-icons/fa";
 import LogoLg from "../Header/img/logolg.png";
+import Logo from "../Header/img/logo.png";
 
 function FooterClosure() {
   return (
     <div>
-      <Row>
-        <Col xs={12} md={4} className="footer_pallet footer_closure_wrapper">
+      <Row className="footer_closure_wrapper">
+        <Col xs={12} md={4} className="footer_pallet">
           <div>
-            <h1>Home</h1>
+            <Image src={Logo} />
+            <p>
+              A place for developers to hang, engage and enjoy their abilities
+            </p>
           </div>
         </Col>
         <Col xs={12} md={4} className="footer_pallet">
@@ -23,7 +27,7 @@ function FooterClosure() {
           </div>
         </Col>
         <Col xs={12} md={4} className="footer_pallet footer_closure">
-          <div>
+          <div className="footer_far_end">
             <div>
               <span className="footer_icon">
                 <FaFacebookSquare />
@@ -37,8 +41,8 @@ function FooterClosure() {
               <div className="footer_closure_end">
                 <span className="footer_icon">
                   <FaWhatsappSquare />{" "}
-                </span>{" "}
-                <h5>01756565656</h5>
+                </span>
+                <h5 className="footer_closure_end_text">01756565656</h5>
               </div>
             </div>
           </div>
