@@ -1,13 +1,13 @@
 import React from "react";
-import { Hero } from "../components/index";
-import { TopBar } from "../components/index";
-import { Subsection } from "../components/Content/Subsection/Subsection";
+import { Hero, TopBar, Subsection, Footer } from "../components/index";
 
 const HomePage = () => {
   return (
     <div>
       <TopBar />
       <Hero />
+      <Subsection />
+      <Footer />
     </div>
   );
 };

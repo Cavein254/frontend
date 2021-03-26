@@ -4,15 +4,12 @@ import Hero from "./Hero/Hero";
 import Subsection from "./Subsection/Subsection";
 import Footer from "../Footer/Footer";
 import WhyUs from "./WhyUs";
+import HomePage from "../../pages/HomePage";
 
 function Main() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <WhyUs />
-      <Subsection />
-      <Footer />
+      <HomePage />
     </div>
   );
 }
