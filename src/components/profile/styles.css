@@ -1,0 +1,51 @@
+.profile_wrapper {
+    margin-top: 1.4rem;
+   
+}
+.profile_welcome_wrapper {
+    margin:1.2rem;
+    padding:1.2rem;
+    box-shadow: 0 0 6px #000;
+    border-radius: 5px;
+}
+.profile_welcome_1 {
+    display:flex;
+}
+.header_image {
+    height:100%;
+    width: 100%;
+}
+.header_image_2_wrapper{
+    margin-top:1.23rem;
+}
+.header_image_2 {
+    height:65%;
+    width: 65%;
+    border-radius: 50%;
+
+}
+.profile_stats_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile_text {
+    scrollbar-color: transparent;
+  }
+.profile_text > h4::-webkit-scrollbar {
+    /* Remove scrollbar in chrome */
+    display: none;
+  }
+.profile_text > h4 {
+    /* Remove scrollbar in Firefox */
+    scrollbar-color: transparent !important;
+    color:red;
+    display: inline-block;
+  }
+.profile_edit_btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
