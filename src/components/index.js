@@ -5,3 +5,4 @@ export { default as Footer } from "./Footer/Footer";
 export { default as FooterLove } from "./Footer/FooterLove";
 export { default as QuestionList } from "./Questions/QuestionList";
 export { default as Profile } from "./profile/Profile";
+export { default as ProfileInfo } from "./profile/ProfileInfo";
