@@ -61,6 +61,10 @@ h1,h4 {
     flex-direction: column;
     align-items: center;
 }
+.header_image_2_text {
+    overflow-y: hidden;
+
+}
 /* end of xs={12} lg={4} md={6} column */
 /* start of xs={12} lg={8} md={6} column */
 .Profile_site_stats {

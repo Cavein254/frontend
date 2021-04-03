@@ -22,7 +22,7 @@ const Profile = () => {
               <Row className="header_image_2_wrapper">
                 <Col md={4} className="header_image_content">
                   <Image src={Logolg} className="header_image_2" />
-                  <p>Designer</p>
+                  <p className="header_image_2_text">Designer</p>
                 </Col>
                 <Col md={4} className="profile_stats_text">
                   <h4>125</h4>

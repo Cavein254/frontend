@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Form } from "react-bootstrap";
+import { Container, Row, Col, Image, Form, Button } from "react-bootstrap";
 import Logolg from "../Content/Hero/img/hero2.png";
 import "./styles.css";
 
@@ -15,9 +15,28 @@ const ProfileInfo = () => {
              </div>
              <div>
                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ab temporibus officiis autem at aperiam exercitationem perferendis fugiat quis? Exercitationem necessitatibus tempora eius quis blanditiis aspernatur laudantium quisquam pariatur eaque.</p>
-                 <Form>
-
-                 </Form>
+          <Form>
+            <Form.Group controlId="formBasicText">
+              <Form.Label>Full Name</Form.Label>
+            < Form.Control type="text" placeholder="Full Name" />
+            </Form.Group>
+            <Form.Group controlId="formBasicText">
+              <Form.Label>User name</Form.Label>
+            < Form.Control type="text" placeholder="User name" />
+            </Form.Group>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>   
+        <Form.Group controlId="formBasicNumber">
+          <Form.Label>Phone Number</Form.Label>
+          <Form.Control type="number" placeholder="Phone Number" />
+        </Form.Group>  
+        <Form.Group controlId="formBasicText">
+              <Form.Label>Label</Form.Label>
+            < Form.Control type="text" placeholder="Frontend, Designer, Backend ..etc" />
+            </Form.Group>
+</Form>
              </div>
             </div>
           </Row>
