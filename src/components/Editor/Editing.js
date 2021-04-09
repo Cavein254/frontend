@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import { EditorState, convertToRaw, convertFromRaw } from "draft-js";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import Editor from 'rich-markdown-editor'
 import { Container, Col, Row, Form, Button } from "react-bootstrap";
 import "./styles.css";
 
 const Editing = () => {
+    const [title, setTitle] = useState()
+    const [question, setQuestion] = useState()
   
   return (
     <Container className="editor_wrapper">
@@ -17,7 +18,7 @@ const Editing = () => {
                     <Col>Post Your Question Below</Col>
                     <Col><Button>Publish</Button></Col>
                 </Row>
-              <Form.Control type="text" placeholder="Question Title" />
+              <Form.Control type="text" placeholder="Question Title" value ={title} onChange={e => setTitle(e.target.value)}/>
             </Form.Group>
           </Form>
         </Col>
