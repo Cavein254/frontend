@@ -1,0 +1,12 @@
+.editor_wrapper{
+    box-shadow: 0 0 5px #000;
+    margin-top: 10px;
+    padding:1rem;
+    margin-bottom:10px;
+    padding-bottom: 12.5rem;
+} 
+
+.editor_topbar{
+    display:flex;
+    justify-content: flex-end;
+}

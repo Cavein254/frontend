@@ -1,5 +1,5 @@
 // import { HomePage, QuestionListPage, ProfilePage, UsersListPage } from "./pages/ProfilePage";
-import UsersListPage from "./pages/UsersListPage";
+import EditingPage from "./pages/EditingPage";
 function App() {
   return (
     <div className="App">
@@ -7,7 +7,9 @@ function App() {
       {/* <QuestionListPage />
        */}
       {/* <ProfilePage /> */}
-      <UsersListPage />
+      {/* <UsersListPage />
+       */}
+      <EditingPage />
     </div>
   );
 }

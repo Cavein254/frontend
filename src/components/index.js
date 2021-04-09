@@ -7,3 +7,4 @@ export { default as QuestionList } from "./Questions/QuestionList";
 export { default as Profile } from "./profile/Profile";
 export { default as ProfileInfo } from "./profile/ProfileInfo";
 export { default as UsersList } from "./users/UsersList";
+export { default as Editing } from "./Editor/Editing";
