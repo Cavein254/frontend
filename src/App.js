@@ -1,12 +1,13 @@
-// import { HomePage, QuestionListPage, ProfilePage } from "./pages/ProfilePage";
-import ProfilePage from "./pages/ProfilePage";
+// import { HomePage, QuestionListPage, ProfilePage, UsersListPage } from "./pages/ProfilePage";
+import UsersListPage from "./pages/UsersListPage";
 function App() {
   return (
     <div className="App">
       {/* <HomePage /> */}
       {/* <QuestionListPage />
        */}
-      <ProfilePage />
+      {/* <ProfilePage /> */}
+      <UsersListPage />
     </div>
   );
 }
