@@ -5,6 +5,7 @@ import {
   UsersListPage,
   EditingPage,
   LoginPage,
+  RegisterPage,
 } from "./pages";
 import { Route } from "react-router-dom";
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/users" exact component={UsersListPage} />
       <Route path="/query" exact component={EditingPage} />
       <Route path="/login" exact component={LoginPage} />
+      <Route path="/register" exact component={RegisterPage} />
     </div>
   );
 }
