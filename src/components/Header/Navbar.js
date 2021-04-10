@@ -32,9 +32,9 @@ function Topbar() {
               <div className="nav_icons">
                 <Image src={Logo} className="logo" />
                 <span>
-                  <Route to="/" exact>
+                  <Link to="/">
                     <FaHome className="nav_fa_icons" />
-                  </Route>
+                  </Link>
                 </span>
                 <span>
                   <Route to="/questions" component="QuestionList">
