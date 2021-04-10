@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Row, Col, Image } from "react-bootstrap";
 import Heropic from "./img/hero3.jpg";
 import Logolg from "./img/logolg.png";
 import "./styles.css";
