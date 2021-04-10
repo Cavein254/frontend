@@ -8,3 +8,5 @@ export { default as Profile } from "./profile/Profile";
 export { default as ProfileInfo } from "./profile/ProfileInfo";
 export { default as UsersList } from "./users/UsersList";
 export { default as Editing } from "./Editor/Editing";
+export { default as Login } from "./auth/Login";
+export { default as Register } from "./auth/Register";
