@@ -1,9 +1,9 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Form, Container, Button } from "react-bootstrap";
 
 const Register = () => {
   return (
-    <div>
+    <Container>
       <Form>
         <Form.Group controlId="formBasicText">
           <Form.Label>Full Name</Form.Label>
@@ -32,8 +32,9 @@ const Register = () => {
           <Form.Label>Confirm Password</Form.Label>
           <Form.Control type="password" placeholder="password" />
         </Form.Group>
+        <Button>Register</Button>
       </Form>
-    </div>
+    </Container>
   );
 };
 

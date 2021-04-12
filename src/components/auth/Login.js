@@ -1,9 +1,9 @@
 import React from "react";
-import { Form } from "react-bootstrap";
+import { Container, Form, Button } from "react-bootstrap";
 
 const Login = () => {
   return (
-    <div>
+    <Container>
       <Form>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -13,8 +13,9 @@ const Login = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="password" />
         </Form.Group>
+        <Button>Login</Button>
       </Form>
-    </div>
+    </Container>
   );
 };
 

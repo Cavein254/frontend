@@ -1,11 +1,13 @@
 import React from "react";
-import Login from "../components/auth/Login";
-
+import { TopBar, Profile, FooterLove, ProfileInfo } from "../components/index";
+import { Login } from "../components/index";
 function LoginPage() {
   return (
-    <div>
+    <>
+      <TopBar />
       <Login />
-    </div>
+      <FooterLove />
+    </>
   );
 }
 

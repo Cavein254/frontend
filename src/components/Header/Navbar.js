@@ -42,9 +42,9 @@ function Topbar() {
                   </Link>
                 </span>
                 <span>
-                  <Route to="/blog">
+                  <Link to="/blog">
                     <FaBookOpen className="nav_fa_icons" />
-                  </Route>
+                  </Link>
                 </span>
               </div>
             </Navbar.Brand>
@@ -70,16 +70,16 @@ function Topbar() {
                 </Link>
               </Button>
               <Button variant="outline-dark">
-                <Route to="/login">
+                <Link to="/login">
                   <FaSignInAlt />
                   Login
-                </Route>
+                </Link>
               </Button>
-              <Route>
+              <Link to="/query">
                 <Button className="post_question">
                   <FaRegQuestionCircle /> Post A Question
                 </Button>
-              </Route>
+              </Link>
             </Navbar.Collapse>
           </Navbar>
         </Switch>
