@@ -1,11 +1,13 @@
 import React from "react";
-import Register from "../components/auth/Register";
-
+import { TopBar, Profile, FooterLove, ProfileInfo } from "../components/index";
+import { Register } from "../components/index";
 function RegisterPage() {
   return (
-    <div>
+    <>
+      <TopBar />
       <Register />
-    </div>
+      <FooterLove />
+    </>
   );
 }
 
