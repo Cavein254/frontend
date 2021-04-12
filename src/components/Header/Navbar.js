@@ -25,7 +25,7 @@ import Logo from "./img/logo.png";
 function Topbar() {
   return (
     <div>
-      <Router>
+      <div>
         <Switch>
           <Navbar bg="light" expand="lg" className="nav">
             <Navbar.Brand>
@@ -37,9 +37,9 @@ function Topbar() {
                   </Link>
                 </span>
                 <span>
-                  <Route to="/questions" component="QuestionList">
+                  <Link to="/queries">
                     <FaQuestionCircle className="nav_fa_icons" />
-                  </Route>
+                  </Link>
                 </span>
                 <span>
                   <Route to="/blog">
@@ -64,10 +64,10 @@ function Topbar() {
                 </InputGroup>
               </Nav>
               <Button variant="outline-info" className="login_btn">
-                <Route to="/register">
+                <Link to="/register">
                   <FaBook />
                   Register
-                </Route>
+                </Link>
               </Button>
               <Button variant="outline-dark">
                 <Route to="/login">
@@ -83,7 +83,7 @@ function Topbar() {
             </Navbar.Collapse>
           </Navbar>
         </Switch>
-      </Router>
+      </div>
     </div>
   );
 }

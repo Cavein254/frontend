@@ -24,7 +24,8 @@
     "reactstrap": "^8.9.0",
     "rich-markdown-editor": "^11.6.4",
     "styled-components": "^5.2.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "wouter": "^2.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
