@@ -10,3 +10,5 @@ export { default as UsersList } from "./users/UsersList";
 export { default as Editing } from "./Editor/Editing";
 export { default as Login } from "./auth/Login";
 export { default as Register } from "./auth/Register";
+export { default as BlogEdit } from "./Blog/BlogEdit";
+export { default as BlogList } from "./Blog/BlogList";
